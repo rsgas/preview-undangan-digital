@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
-  root: "/preview-undangan-digital/"
+  base: "/preview-undangan-digital/"
 })
