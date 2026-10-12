@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playball&display=swap');
+
+
+/* Typography */
+
+.title-text {
+  /* font-family: 'Bodoni Moda', serif; */
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 70px;
+  color: #000000;
+
+  text-align: center;
+}
+
+.primary-font {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+
+  text-align: center;
+}
+
+.secondary-font {
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 19px;
+  color: #000000;
+
+  text-align: center;
+}
+
+.primary-text {
+  font-size: 50px;
+  line-height: 30px;
+}
+
+.artistic-font {
+  font-family: 'Playball', cursive;
+  font-weight: 4500;
+  font-size: 50px;
+  line-height: 19px;
+  color: #000000;
+
+  text-align: center;
+}
+
+.paraf-font {
+  font-family: 'Montserrat', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+
+  /* text-align: center; */
+}
+
+h1, h2, p, span, button, a {
+  margin: 10px;
+  padding: 0;
+}
+
+/* Color */
+
+.primary-color {
+  background-color: #FFEED6;
+  color: #000000;
+}
+
+.secondary-color {
+  background-color: #273d2f;
+  color: #FFEED6;
+}
+
+.tertiary-color {
+  background-color: #B99A5B;
+  color: #f1f1f1;
+}

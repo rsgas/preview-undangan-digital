@@ -1,0 +1,40 @@
+/* Component Styles */
+
+.primary-button {
+  padding: 10px 20px;
+  /* background-color: #B99A5B; */
+  /* color: #fff; */
+  border: none;
+  /* border-radius: 4px; */
+  cursor: pointer;
+
+  transition: background-color 0.5s;
+}
+
+.primary-button:hover {
+  background-color: #18221d;
+  color: #fff;
+}
+
+.primary-button:active {
+  background-color: #718b70;
+  /* font-weight: 500; */
+  color: #fff;
+
+}
+
+.primary-link {
+  /* text-decoration: none; */
+  color: #232c28;
+  transition: color 0.5s;
+
+  font-weight: bold;
+  font-style: italic;
+  font-size: 19px;
+
+}
+
+.primary-link:hover {
+  color: #596b5b;
+  text-decoration: underline;
+}

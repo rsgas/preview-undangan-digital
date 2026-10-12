@@ -6,6 +6,7 @@ import { useState } from "react";
 
 function Nav() {
     const nSteps = [
+        "Profile?",
         "The Beginning?",
         "Our Years?",
         "The Moment?",
@@ -38,7 +39,7 @@ function Nav() {
         <div className="nav-container">
             <div className="nav-wrapper">
                 <div className="nav-title">
-                    <PrimText text="Hi" />
+                    <PrimText text="M&L" />
                 </div>
                 {/* <div className="nav-content">
                     <PrimLink text="Home" href="#" />

@@ -1,0 +1,138 @@
+
+
+.container.fs-sec {
+  /* justify-content: baseline; */
+  border-top: 1px solid #cadbcf;
+
+  /* flex-direction: column; */
+}
+
+.wrap-fs {
+  width: 100%;
+  height: 200px;
+  
+  text-align: center;  
+
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.h-200 {
+  height: 200px;
+}
+
+.wrap-text {
+  width: 70%;
+}
+
+
+/* layout first page */
+
+.container.fs-sec {
+  /* background: red; */
+
+    /* background-image:
+    radial-gradient(
+      ellipse at center,
+      transparent 0%,
+      rgba(255, 255, 255, 0.5) 40%,
+      #ffffff 100%
+    ),
+    linear-gradient(to right, #ccbbbb 1px, transparent 1px),
+    linear-gradient(to bottom, #ccbbbb 1px, transparent 1px);
+
+  background-size:
+    100% 100%,
+    50px 50px,
+    50px 50px;
+
+  background-repeat:
+    no-repeat,
+    repeat,
+    repeat; */
+
+
+  /* padding: 10px; */
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+.text-end {
+  /* text-align: end; */
+}
+
+.fs-page {
+  display: flex;
+  /* justify-content: ; */
+  align-items: center;
+
+  /* margin-bottom: 20px; */
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* flex-flow: row; */
+
+  width: 100%;
+  height: 100vh;
+}
+
+.fs-page.one {
+}
+
+.fs-page.two {
+    flex-direction: row-reverse;
+    /* display: hidden; */
+    text-align: end;
+}
+
+.img-wrap {
+  /* width: 300px; */
+  width: 40%;
+  height: 100%
+  /* background-color: #f0ceb0; */
+
+  /* border-radius: 20px; */
+
+  /* height: 350px; */
+
+  /* object-fit: cover;
+  overflow: hidden; */
+}
+
+.fs-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.paraf {
+  width: 500px;
+  height: 350px;
+  /* background-color: #f0ceb0; */
+
+  padding: 20px;
+
+  /* border-radius: 5px; */
+
+  /* text-align: baseline; */
+
+}
+
+
+/* @media (max-width: 875px) {
+  .fs-page-1 {
+    display: none;
+  }
+} */
